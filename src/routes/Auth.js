@@ -91,7 +91,7 @@ const Auth = () => {
           {error}
       </form>
       <span onClick={toggleAccount}>
-        {newAccount ? "Sing in" : "Create Account"}
+        {newAccount ? "Sign in" : "Create Account"}
       </span>
       <button name="google" onClick={onSocialClick}>continue with google</button>
       <button name="github" onClick={onSocialClick}>continue with github</button>
